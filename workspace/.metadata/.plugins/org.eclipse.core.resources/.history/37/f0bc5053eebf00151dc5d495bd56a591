@@ -1,9 +1,0 @@
-package com.yezi.list;
-
-public class listDeo01 {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
