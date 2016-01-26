@@ -1,0 +1,14 @@
+package com.yezi.finalDemon01;
+
+class people{
+	
+}
+
+
+public class FinalDemon01 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

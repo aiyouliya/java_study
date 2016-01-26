@@ -1,0 +1,22 @@
+class Info<T>{
+	private T key;
+	public void setKey(T key) {
+		this.key = key;
+	}
+	public T getKey() {
+		return key;
+	}
+	
+	@Override
+	public String toString() {
+		return this.getKey();
+	}
+}
+public class GenericDemon04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

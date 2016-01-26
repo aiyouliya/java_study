@@ -1,0 +1,29 @@
+interface GinInter<T>{
+	public void say();
+}
+class Gin<T> implements GinInter<T>{
+	private String info;
+	public Gin(String info) {
+		this.info = info;
+	}
+	public String getInfo() {
+		return info;
+	}
+	public void setInfo(String info) {
+		this.info = info;
+	}
+	@Override
+	public void say() {
+		Gin<String> g = new Gin<String>("р╤вс");
+		
+	}
+	
+}
+public class GenericDemon05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

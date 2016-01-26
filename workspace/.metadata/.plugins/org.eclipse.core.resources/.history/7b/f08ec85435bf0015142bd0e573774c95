@@ -1,0 +1,52 @@
+package com.yezi.pol;
+
+abstract class  People{
+	private String name;
+	private int age;
+	public People(int age,String name){
+		this.age = age;
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public abstract void want();
+}
+class Studend extends People{
+	private int score;
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	public Studend(int age, String name) {
+		super(age, name);
+	}
+
+	@Override
+	public void want() {//重写父类中未实现的抽象类方法
+		System.out.println("姓名：" +getName()+" 年龄："+getAge()+);
+	}
+	
+}
+
+public class AbsDemon01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

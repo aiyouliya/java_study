@@ -1,0 +1,15 @@
+package com.yezi.test;
+
+public class UiTest {
+
+	public static void main(String[] args) {
+		System.out.println("hello yezi test");
+	}
+	public void startTest(){
+		System.out.print("case pass");
+	}
+	public void addTwonumbers(int x,int y){
+		int a,b;
+		return a+b;
+	}
+}

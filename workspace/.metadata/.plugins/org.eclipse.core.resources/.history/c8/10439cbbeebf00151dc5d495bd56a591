@@ -1,0 +1,10 @@
+package com.yezi.list;
+import java.util.ArrayList;
+import java.util.List;
+public class listDeo01 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

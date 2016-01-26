@@ -1,0 +1,17 @@
+package com.yezi.thread;
+class RunnableDemo implements Runnable{
+	private String name;
+	public RunnableDemo(String name){
+		this.name = name;
+	}
+	public void run() {
+		
+	}
+}
+public class MythreadDemo03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

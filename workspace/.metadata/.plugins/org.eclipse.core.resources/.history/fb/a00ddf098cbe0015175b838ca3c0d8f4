@@ -1,0 +1,44 @@
+package com.yezi.staticDemon;
+
+class People{
+	private String name;
+	private static String country= "西安";//静态变量，节省内存
+	
+	public People(String name){
+		this.name = name;
+	}
+	public void tell(){
+		System.out.println("姓名："+name+" 出生地："+country);
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public static String getCountry() {
+		return country;
+	}
+	public static void setCountry(String country) {
+		People.country = country;
+	}
+
+	
+	
+	
+}
+public class staticDemon01 {
+
+	public static void main(String[] args) {
+		People p1 = new People("椰子");
+		p1.tell();
+		People.conuntry = "北京";//通过类名调用
+//		People.setCountry("延安");		//当
+		People p2 = new People("咖啡");
+		p2.tell();
+		People p3 = new People("芒果");
+		p3.tell();
+		
+	}
+
+}

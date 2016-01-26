@@ -1,0 +1,11 @@
+package com.yezi.generic;
+
+
+
+public class GenericDemon02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

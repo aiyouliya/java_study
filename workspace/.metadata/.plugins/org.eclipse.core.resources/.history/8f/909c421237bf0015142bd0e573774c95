@@ -1,0 +1,76 @@
+package com.yezi.pol;
+
+import com.yezi.pol.Studend.Worker;
+
+abstract class  People{
+	private String name;
+	private int age;
+	public People(int age,String name){
+		this.age = age;
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public abstract void want();
+}
+class Studend extends People{
+	private int score;
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	public Studend(int age, String name,int score) {
+		super(age, name);
+		this.score = score;
+	}
+
+class Worker extends People{
+	private int money;
+	public Worker(int age, String name,int money) {
+		super(age, name);
+		this.money = money;
+	}
+	@Override
+	public void want() {
+		System.out.println("姓名：" +getName()+" 年龄："+getAge()+"工资："+getMoney());
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	
+}
+	@Override
+	public void want() {//重写父类中未实现的抽象类方法
+		System.out.println("姓名：" +getName()+" 年龄："+getAge()+"成绩："+getScore());
+	}
+	
+}
+
+public class AbsDemon01 {
+
+	public static void main(String[] args) {
+		Studend s = new Studend(10, "椰子", 100);
+		s.want();
+		Worker w = new Worker(35, "椰子树", 1000);
+		w.want();
+
+	}
+
+}

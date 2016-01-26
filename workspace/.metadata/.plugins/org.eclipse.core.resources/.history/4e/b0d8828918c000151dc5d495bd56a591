@@ -1,0 +1,27 @@
+package com.yezi.file;
+
+import java.io.File;
+
+public class FileDemo01 {
+
+	public static void main(String[] args) {
+		File sfile = new File("myfile.txt");
+		if (sfile.exists()) {
+			if (sfile.isDirectory()) {
+				System.out.println("sfile is a file");
+				
+			} else {
+				if (sfile.isDirectory()) {
+					System.out.println("sfile is a Directory!");
+				}
+
+			}
+			//System.out.println();
+			
+		} else {
+			System.out.println("sfile is not exist!");
+			sfile.createNewFile();
+		}
+	}
+
+}

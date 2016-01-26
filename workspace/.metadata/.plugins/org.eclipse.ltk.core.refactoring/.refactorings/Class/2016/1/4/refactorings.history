@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.yezi.classdemon&apos; to &apos;com.yezi.classdemo&apos;&#x0D;&#x0A;- Original project: &apos;Class&apos;&#x0D;&#x0A;- Original element: &apos;Class/src/com.yezi.classdemon&apos;&#x0D;&#x0A;- Renamed element: &apos;Class/src/com.yezi.classdemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.yezi.classdemon&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.yezi.classdemon" name="com.yezi.classdemo" qualified="false" references="true" stamp="1453344207819" textual="false" version="1.0"/>
+</session>

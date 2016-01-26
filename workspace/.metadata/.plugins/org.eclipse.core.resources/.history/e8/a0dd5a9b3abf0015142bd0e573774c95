@@ -1,0 +1,19 @@
+package com.yezi.pol;
+
+interface USB{
+	/*
+	 * interface 只能是公共抽象类，所以public abstract可以省略
+	 */
+	void start();
+	void stop();
+}
+
+
+public class InterDemon01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

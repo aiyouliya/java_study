@@ -1,0 +1,20 @@
+package com.yezi.list;
+import java.util.ArrayList;
+import java.util.List;
+public class listDeo01 {
+
+	public static void main(String[] args) {
+		List<String> list01 = null;
+		list01 = new ArrayList<String>();
+		list01.add("yezi");
+		list01.add("jamy");
+		list01.add("yiha");
+		
+		for (int i = 0; i < list01.size(); i++) {
+			System.out.println(list01.get(i));
+			
+		}
+		
+	}
+
+}

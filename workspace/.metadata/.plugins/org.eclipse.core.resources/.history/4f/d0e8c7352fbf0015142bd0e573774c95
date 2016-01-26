@@ -1,0 +1,46 @@
+package com.yezi.pol;
+
+abstract class  People{
+	private String name;
+	private int age;
+	public People(int age,String name){
+		this.age = age;
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public abstract void want();
+}
+class Studend extends People{
+
+	public Studend(int age, String name) {
+		super(age, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void want() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class AbsDemon01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

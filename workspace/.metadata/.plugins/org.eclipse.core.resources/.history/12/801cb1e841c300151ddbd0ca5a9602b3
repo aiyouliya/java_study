@@ -1,0 +1,26 @@
+package com.yezi.thread;
+class RunnableDemo implements Runnable{
+	private String name;
+	public RunnableDemo(String name){
+		this.name = name;
+	}
+	public void run() {
+		for (int i = 0; i < 50; i++) {
+			//获得当前线程对象 thread.currentThread().getName();
+			System.out.println("当前线程对象"+Thread.currentThread().getName());
+		}
+		
+	}
+}
+public class MythreadDemo03 {
+
+	public static void main(String[] args) {
+		RunnableDemo r1= new RunnableDemo("A");
+		RunnableDemo r2= new RunnableDemo("B");
+		Thread t5 = new Thread(r1);
+		Thread t6 = new Thread(r2);
+		t5.start();
+		t6.start();
+	}
+
+}

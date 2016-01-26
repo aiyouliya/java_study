@@ -1,0 +1,10 @@
+package com.yezi.classDemon04;
+
+public class ClassConstractMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

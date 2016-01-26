@@ -1,0 +1,14 @@
+package com.yezi.pol;
+
+class A{
+	public void tell1(){
+}
+	
+}
+public class PolDemon01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

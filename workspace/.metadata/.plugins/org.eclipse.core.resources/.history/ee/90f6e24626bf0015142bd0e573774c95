@@ -1,0 +1,15 @@
+package com.yezi.finalDemon01;
+
+interface Inter{
+	public static final int AGE = 100;
+	public abstract void tell();
+	
+}
+public class InterDemon01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

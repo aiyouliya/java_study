@@ -1,0 +1,67 @@
+package com.yezi.pol;
+
+/*
+ * Declare a abstract class People
+ */
+abstract class  People{
+	private String name;
+	private int age;
+	public People(int age,String name){
+		this.age = age;
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public abstract void want();
+}
+
+/*
+ * Declare a class Student extends People.
+ */
+class Student extends People{
+	private int score;
+	
+	public Student(int age, String name,int score) {
+		super(age, name);
+		this.score = score;
+	}
+
+	@Override
+	public void want() {	//重写抽象父类中的方法
+		System.out.println("姓名："+getName()+"年龄："+getAge()+"成绩："+getScore());
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+	
+}
+
+/*
+ * 主函数
+ */
+public class AbsDemon01 {
+
+	public static void main(String[] args) {
+//		Studend s = new Studend(10, "椰子", 100);
+//		s.want();
+//		Worker w = new Worker(30, "HELLEN", 1000);
+//		w.want();
+
+	}
+
+}

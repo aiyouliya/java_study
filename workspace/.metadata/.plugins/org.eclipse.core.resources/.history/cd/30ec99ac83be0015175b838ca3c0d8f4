@@ -1,0 +1,14 @@
+package com.yezi.ref;
+
+public class RefDemon02 {
+
+	public static void main(String[] args) {
+		String str1 ="Hello";
+		System.out.println(st1);
+		tell(str1);
+	}
+
+	public static void tell(String str2){
+		str2 = "Tom";s
+	}
+}

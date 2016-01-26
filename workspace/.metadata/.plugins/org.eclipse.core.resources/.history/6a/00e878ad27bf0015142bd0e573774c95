@@ -1,0 +1,34 @@
+package com.yezi.finalDemon01;
+
+interface Inter{
+	public static final int AGE = 100;	//接口中的变量为全局常量
+	public abstract void tell();	//接口中的方法为抽象方法
+	
+}
+interface Inter2{
+	public abstract void say();
+}
+abstract class Abs1{
+	public abstract void print();
+}
+class A extends Abs1 implements Inter,Inter2{	//子类可以继承多个接口,子类可以继承抽象类，并实现两个接口的继承
+	public void tell(){//接口的子类必需重写接口的抽象方法，并实现
+		
+	}
+	public void say(){
+		
+	}
+	public void print(){//子类实现父抽象类中的方法 ，否则会编译不通过
+		
+	}
+}
+public class InterDemon01 {
+
+	public static void main(String[] args) {
+//		Inter b = Inter();	//接口不可以被直接调用
+		A a = new A();	//接口必需通过子类进行调用
+		a.tell();
+		System.out.println(Inter.AGE);	//常量需要通过接口名来调用。
+	}
+
+}

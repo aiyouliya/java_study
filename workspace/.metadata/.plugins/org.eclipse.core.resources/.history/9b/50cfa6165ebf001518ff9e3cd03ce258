@@ -1,0 +1,24 @@
+class Gen<T,K>{
+	private T take;
+	private K key;
+	public T getTake() {
+		return take;
+	}
+	public void setTake(T take) {
+		this.take = take;
+	}
+	public K getKey() {
+		return key;
+	}
+	public void setKey(K key) {
+		this.key = key;
+	}
+	
+}
+public class GenericDemon03 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

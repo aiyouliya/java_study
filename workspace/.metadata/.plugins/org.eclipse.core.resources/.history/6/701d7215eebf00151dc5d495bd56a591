@@ -1,0 +1,10 @@
+package com.yezi.list;
+
+
+public class ListDemo01 {
+
+	public static void main(String[] args) {
+		List<String> list01 = null;
+	
+
+}

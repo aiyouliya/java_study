@@ -1,0 +1,19 @@
+package com.yezi.generic;
+
+/*
+ * 泛型即定义类时，不指定数据类型，在使用时根据需要定义类型
+ */
+class Point<T>{	//T是数据类型
+	private T x;
+	private T y;
+	
+
+}
+
+public class GenericDemon01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
